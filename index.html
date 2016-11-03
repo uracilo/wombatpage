@@ -15,7 +15,31 @@
 
         <!-- Site Title -->
         <title>Soluciones web</title>
-        
+
+          <link rel="shortcut icon" type="image/x-icon" href="img/icono.ico" />
+
+<!-- Place this data between the <head> tags of your website-->
+<meta name="description" content="paginas web">
+<!-- Schema.org markup for Google+-->
+<meta itemprop="name" content="Web Wombat - páginas web">
+<meta itemprop="description" content="páginas web">
+<meta itemprop="image" content="img/icono.ico">
+<!-- Twitter Card data-->
+<meta name="twitter:card" content="Wombat web">
+<meta name="twitter:site" content="@wombat_web">
+<meta name="twitter:title" content="Paginas web">
+<meta name="twitter:description" content="paginas web">
+<meta name="twitter:creator" content="@paginas web">
+<!-- Twitter summary card with large image must be at least 280x150px-->
+<meta name="twitter:image:src" content="img/icono.ico">
+<!-- Open Graph data-->
+<meta property="og:url"         content="paginas web" />
+<meta property="og:type"        content="website" />
+<meta property="og:title"       content="Páginas web" />
+<meta property="og:description" content="paginas web" />
+<meta property="og:image"       content="https://camo.githubusercontent.com/b437ac3b4aa5cdfaf8f54e140a23ddb62ef11e32/687474703a2f2f7370726565636f6d6d657263652e636f6d2f696d616765732f776f6d6261745f6c6f676f2e706e67" />
+
+      
         <!--
         Google Fonts
         ============================================= -->
@@ -81,6 +105,7 @@
                             <li><a href="#portfolio">Trabajos</a></li>
                             <li><a href="#about">Nosotros</a></li>
                             <li><a href="#contact">Contáctanos</a></li>
+
                         </ul>
                     </nav>
                     <!-- /main nav -->
@@ -446,7 +471,7 @@
                     
 <!--                     <div class="col-md-5 col-md-offset-1 wow fadeInLeft">
 
-                        <div class="subtitle text-center">
+<!--                         <div class="subtitle text-center">
                             <h3>Testimonials</h3>
                             <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
                         </div>
@@ -505,8 +530,10 @@
                                 </div>
                             </div>
 
+<<<<<<< HEAD
                         </div> <!-- end #testimonial --> -->
                     </div> <!-- end .col-md-5 -->
+
 
                     <div class="col-md-12 col-md-offset-1 wow fadeInRight">
 
@@ -549,6 +576,34 @@
 
                     </div>  <!-- end .col-md-5 -->
 
+                    <div class="col-md-5 col-md-offset-1 wow fadeInRight">
+
+                        <div class="subtitle text-center">
+                            <h3>OUR SKILLS</h3>
+                            <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+                        </div>
+
+                        <div class="progress-bars">
+
+                             <span>Inglés <small>95%</small></span>
+                            <div class="progress"  data-progress="95">
+                                <div class="bar"></div>
+                            </div>
+                            
+                            <span>Ruby on rails <small>75%</small></span>
+                            <div class="progress"  data-progress="75">
+                                <div class="bar"></div>
+                            </div>
+                            <span>Inglés <small>95%</small></span>
+                            <div class="progress"  data-progress="95">
+                                <div class="bar"></div>
+                            </div>
+                            
+
+                        </div>  <!-- progress-bars -->
+
+                    </div>  <!-- end .col-md-5 -->
+
                 </div>
             </div>
         </section>
@@ -575,7 +630,6 @@
         End #quotes
         ========================== -->
 
-
 <!--         <!--
         #subscribe
         ========================== -->
@@ -583,7 +637,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-7 wow fadeInLeft">
-                        <form action="#" method="post" class="subscription-form">
+                        <form action="https://formspree.io/mvj@ciencias.unam.mx" method="POST" class="subscription-form">
                             <i class="fa fa-envelope-o fa-lg"></i>
                             <input type="email" name="subscribe" class="subscribe" placeholder="YOUR MAIL" required="">
                             <input type="submit" value="SUBSCRIBE" id="mail-submit">
@@ -615,16 +669,14 @@
                     
                     <div class="col-md-12 col-sm-12 wow fadeInLeft">
                         <div class="contact-form clearfix">
-                            <form action="index.html" method="post">
+
+                            <form action="https://formspree.io/mvj@ciencias.unam.mx" method="POST">
                                 <div class="input-field">
-                                    <input type="text" class="form-control" name="name" placeholder="Your Name" required="">
-                                </div>
+                                    <input type="text"    value="Nombre"     class="form-control" name="Nombre" placeholder="Nombre" required=""></div>
                                 <div class="input-field">
-                                    <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
-                                </div>
+                                    <input type="email"   value="Correo"     class="form-control" name="Correo" placeholder="Correo" required=""></div>
                                 <div class="input-field message">
-                                    <textarea name="message" class="form-control" placeholder="Your Message" required=""></textarea>
-                                </div>
+                                    <textarea             value="comentario" class="form-control" name="Mensaje" placeholder="Mensaje" required=""></textarea></div>
                                 <input type="submit" class="btn btn-blue pull-right" value="SEND MESSAGE" id="msg-submit">
                             </form>
                         </div> <!-- end .contact-form -->
